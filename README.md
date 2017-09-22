@@ -3,14 +3,14 @@
 ### 本生成器使用PHP编写
 
 
-1.  生成指定用户回答页RSS:
-`zhihu_usr_answer_rss.php?user={UID}` 
-其中UID出现在该用户详情页URL中: 
+1.  生成指定用户回答页RSS:\
+`zhihu_usr_answer_rss.php?user={UID}` \
+其中UID出现在该用户详情页URL中: \
 `https://www.zhihu.com/people/{UID}` 
 
-2. 生成专栏RSS:
-`b.php?user={id}` 
-其中id出现在专栏页URL中:
+2. 生成专栏RSS:\
+`b.php?user={id}` \
+其中id出现在专栏页URL中:\
 `https://zhuanlan.zhihu.com/{id}` 
 
 3. 可以在`zhihu_rss_config.php` 中修改curl用的UA信息，我也不记得当初为啥要把这东西单独拿出来了…
